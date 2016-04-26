@@ -39,7 +39,7 @@ export function adsense(global, data) {
   if (data['adSlot']) {
     i.setAttribute('data-ad-slot', data['adSlot']);
   }
-  if (data['adFormat'] && data['adFormat'].match("link|autorelaxed")) {
+  if (data['adFormat'] && data['adFormat'].match('link|autorelaxed')) {
     i.setAttribute('data-ad-format', data['adFormat']);
   }
 
